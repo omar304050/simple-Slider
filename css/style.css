@@ -1,0 +1,40 @@
+.item , .modal-inner i{
+    cursor: pointer;
+}
+
+.item .layer {
+    position: absolute;
+    bottom: -50%;
+    left: 15px;
+    right: 15px;
+    background-color: #fff;
+    text-align: center;
+    transition: bottom 0.5s;
+  
+}
+.item:hover .layer{
+    bottom: 15px;
+}
+
+#modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.modal-inner{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/img10.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+
+.container h1{
+    font-size: 50px;
+}

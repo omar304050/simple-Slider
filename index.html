@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <div class="container py-5">
+
+        <h1 class="text-center fw-bolder w-50 mx-auto bg-danger rounded-4 p-2 text-white ">Simple Slider By Js</h1>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="item overflow-hidden border border-danger position-relative">
+                    <img src="images/img4.gif" class="w-100" alt="">
+                    <div class="layer">
+                        <h5>Item 1</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item overflow-hidden border border-danger position-relative">
+                    <img src="images/img10.jpg" class="w-100" alt="">
+                    <div class="layer">
+                        <h5>Item 2</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item overflow-hidden border border-danger position-relative">
+                    <img src="images/img2.gif" class="w-100" alt="">
+                    <div class="layer">
+                        <h5>Item 3</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item overflow-hidden border border-danger position-relative">
+                    <img src="images/img3.png" class="w-100" alt="">
+                    <div class="layer">
+                        <h5>Item 4</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item overflow-hidden border border-danger position-relative">
+                    <img src="images/img5.jpg" class="w-100" alt="">
+                    <div class="layer">
+                        <h5>Item 5</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item overflow-hidden border border-danger position-relative">
+                    <img src="images/img9.gif" class="w-100" alt="">
+                    <div class="layer">
+                        <h5>Item 6</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div id="modal" class="d-none justify-content-center align-items-center">
+        <div  id="modal-inner" class="modal-inner p-3 d-flex align-items-center justify-content-between position-relative">
+
+            <i id="prevElement" class="fa-regular fa-2x fa-circle-left"></i>
+            <i id="nextElement" class="fa-regular fa-2x fa-circle-right"></i>
+            <i id="closeElement" class="fa-regular fa-2x fa-circle-xmark position-absolute top-0 end-0 m-3"></i>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
